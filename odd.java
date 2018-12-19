@@ -4,12 +4,18 @@ public class odd {
 	{
 		Scanner x=new Scanner(System.in);
 		int n=x.nextInt();
+		if(n>0)
+		{
 		if(n%2==0)
 		{
 			System.out.println("Even");
 		}
 		else {
 			System.out.println("Odd");
+		}
+		}
+		else {
+			System.out.println("Invalid");
 		}
 	}
 }
